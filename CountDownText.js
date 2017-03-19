@@ -19,7 +19,7 @@ import ReactNative,{
   Text,
 } from 'react-native';
 
-var update = requice('react-addons-update'),
+var update = require('react-addons-update'),
     countDown = require('./countDown');
 
 var CountDownText = React.createClass({
