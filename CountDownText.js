@@ -14,12 +14,12 @@ this.refs.countDownText.end();
 
 import React from 'react';
 
-import {
+import ReactNative,{
   StyleSheet,
   Text,
 } from 'react-native';
 
-var update = React.addons.update,
+var update = ReactNative.addons.update,
     countDown = require('./countDown');
 
 var CountDownText = React.createClass({
